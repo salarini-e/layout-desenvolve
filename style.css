@@ -1,0 +1,59 @@
+html, body{
+   padding: 0px !important;
+}
+header{
+    background-color: #084775;
+    height: 90px;
+}
+header .navbar .navbar-brand{
+    display: flex;
+}
+header .navbar .navbar-brand #brasao{
+    height: min(70px, 9vw);
+    margin: auto 10px auto 10px;
+}
+header .navbar .navbar-brand #divisoria{
+    pointer-events: none;
+    font-weight: 200;
+    font-size: 34pt;
+    line-height: 0;
+    margin: auto
+}
+header .navbar .navbar-brand #logo{
+    height: min(70px, 9vw);
+    margin: auto 0 auto 10px;
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+header nav .navbar-nav .nav-link{
+    color: white;
+    font-size: max(1vw,.9em);
+    font-weight: 400;
+}
+header #redes-sociais{
+    display: flex;
+}
+header #redes-sociais div{
+    display: flex;
+    margin: auto 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+header #redes-sociais div i{
+    margin: auto;
+}   
+header .btn-light{ 
+    background: linear-gradient(0deg, rgba(249, 173, 27, 1) 0%, rgba(223, 146, 0, 1) 100%);
+    border-color: transparent;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
